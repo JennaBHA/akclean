@@ -1,0 +1,141 @@
+/* Navbar */
+/* Ajoutez cette classe pour appliquer le flou */
+.menu-open-blur {
+  backdrop-filter: blur(
+    16px
+  ); /* Vous pouvez ajuster la valeur de flou selon vos préférences */
+  background-color: rgba(
+    0,
+    3,
+    2,
+    0.8
+  ); /* Couleur d'arrière-plan semi-transparente */
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image:
+    linear-gradient(transparent, transparent), linear-gradient(#000, #000);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image:
+    linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+/* Scrollbar - Compatible avec mode clair et sombre */
+:root {
+  --scrollbar-track-light: #f0f9ff;
+  --scrollbar-track-dark: #2b2e33;
+  --scrollbar-thumb-light: #333;
+  --scrollbar-thumb-dark: #888;
+  --scrollbar-thumb-hover-light: #111;
+  --scrollbar-thumb-hover-dark: #555;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --scrollbar-track: var(--scrollbar-track-dark);
+    --scrollbar-thumb: var(--scrollbar-thumb-dark);
+    --scrollbar-thumb-hover: var(--scrollbar-thumb-hover-dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --scrollbar-track: var(--scrollbar-track-light);
+    --scrollbar-thumb: var(--scrollbar-thumb-light);
+    --scrollbar-thumb-hover: var(--scrollbar-thumb-hover-light);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px; /* Largeur de la scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(
+    --scrollbar-track
+  ); /* Couleur dynamique du fond de la scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(
+    --scrollbar-thumb
+  ); /* Couleur dynamique du curseur de la scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(
+    --scrollbar-thumb-hover
+  ); /* Couleur dynamique du curseur au survol */
+}
+
+/* Carousel */
+/* Styles pour les flèches de navigation */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important; /* Nouvelle couleur du texte */
+  font-size: 1px !important; /* Nouvelle taille de police */
+  width: full !important; /* Nouvelle largeur */
+  height: full !important; /* Nouvelle hauteur */
+  border-radius: 10% !important; /* Pour arrondir les coins */
+  padding: 24px;
+  display: flex !important; /* Pour aligner le contenu au centre */
+  justify-content: center !important; /* Pour aligner le contenu horizontalement */
+  align-items: center !important; /* Pour aligner le contenu verticalement */
+  transition:
+    background-color 0.3s,
+    color 0.3s !important; /* Animation lors du survol */
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    color: grey !important; /* Nouvelle couleur du texte au survol */
+  }
+}
+
+/* Styles pour les bullets de pagination */
+.swiper-pagination-bullet {
+  background-color: #6ba3ff !important; /* Couleur de fond */
+  width: 10px !important; /* Largeur */
+  height: 10px !important; /* Hauteur */
+  margin: 0 8px !important; /* Marge entre les bullets */
+  border-radius: 50% !important; /* Bord arrondi */
+}
+
+/* Styles pour le bullet actif */
+.swiper-pagination-bullet-active {
+  background-color: #6b7280 !important; /* Couleur de fond pour le bullet actif */
+}
+
+/* Styles pour l'image avec le gradient */
+.image-container {
+  position: relative;
+}
+
+.image-container::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.95));
+}
+
+/* Selection */
+::selection {
+  background-color: #2c28f66a;
+  color: #fff;
+}
