@@ -8,7 +8,7 @@ import Accueil from './pages/Accueil';
 import Contact from './pages/Contact';
 import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite';
 import MentionLegales from './pages/MentionLegales';
-import Bureau from './pages/Bureau';
+import Prestation from './pages/Prestation';
 import Vitrage from './pages/Vitrage';
 import Textile from './pages/Textile';
 
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
         element: <Accueil />,
       },
       {
-        path: '/bureau',
-        element: <Bureau />,
+        path: '/prestation',
+        element: <Prestation />,
       },
       {
         path: '/vitrage',

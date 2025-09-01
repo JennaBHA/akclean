@@ -144,10 +144,10 @@ const Navbar: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    to="/bureau"
+                    to="/prestation"
                     className="md:link md:link-underline md:link-underline-black block py-2 pl-3 pr-4"
                   >
-                    Bureaux et locaux
+                    Mes prestations
                   </Link>
                 </li>
                 <li>
@@ -209,10 +209,10 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <Link
-                to="/bureau"
+                to="/prestation"
                 className="link link-underline link-underline-black py-2 pl-3 pr-4 text-white"
               >
-                Bureaux et locaux
+                Mes prestations
               </Link>
             </li>
             <li>

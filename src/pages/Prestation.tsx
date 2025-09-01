@@ -3,7 +3,7 @@ import ComparisonSlider from '../components/article/ComparaisonSlider';
 import PlanList from '../components/article/PlanList';
 import Banner from '../components/header/Banner';
 
-const Bureau = () => {
+const Prestation = () => {
   const plans = [
     {
       title: "Nettoyage d'entretien",
@@ -209,4 +209,4 @@ const Bureau = () => {
   );
 };
 
-export default Bureau;
+export default Prestation;

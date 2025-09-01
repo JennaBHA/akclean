@@ -11,8 +11,8 @@ const Accueil = () => {
           title="AK CLEAN SERVICE"
           subtitle="La qualité qui se voit, la qualité qui se sent."
           backgroundImageUrl="/backgroundHome.jpg"
-          button1Label="Bureaux et locaux"
-          button1Link="/bureau"
+          button1Label="Mes prestations"
+          button1Link="/prestation"
           button2Label="Lire plus"
         />
       </header>
