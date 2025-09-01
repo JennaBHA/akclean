@@ -32,10 +32,10 @@ const ContactForm = () => {
 
       try {
         const result = await emailjs.sendForm(
-          'service_fpzfpxd',
-          'template_unqnxgs',
+          'service_2oynge9',
+          'template_p1zkry3',
           form.current,
-          'Pp6n1YIzECCp0vtuB'
+          'h34udmuo6d7b6IwKz'
         );
         console.log(result.text);
         setIsSubmitted(true); // Affiche la boîte de dialogue de confirmation
