@@ -6,163 +6,92 @@ import Banner from '../components/header/Banner';
 const Prestation = () => {
   const plans = [
     {
-      title: "Nettoyage d'entretien",
-      iconColor: 'text-green-500',
-      features: [
-        {
-          name: 'Intérieur standard',
-          subname: {
-            first: 'Citadine',
-            second: 'SUV',
-            third: 'Monospace',
-          },
-          prices: {
-            first: '45€',
-            second: '55€',
-            third: '60€',
-          },
-        },
-        {
-          name: 'Avec nettoyage extérieur',
-          subname: {
-            first: 'Citadine',
-            second: 'SUV',
-            third: 'Monospace',
-          },
-          prices: {
-            first: '80€',
-            second: '95€',
-            third: '105€',
-          },
-        },
-      ],
-      description: [
-        'Aspirateur, plastiques, vitres intérieures',
-        'Carrosserie, jantes, vitres, pneus',
-      ],
-    },
-
-    {
-      title: 'Nettoyage profond',
+      title: 'Nettoyage',
       iconColor: 'text-yellow-500',
       features: [
         {
-          name: 'Intérieur complet',
+          name: 'Particulier',
           subname: {
-            first: 'Citadine',
-            second: 'SUV',
-            third: 'Monospace',
+            first: 'De 20 à 50m²',
+            second: 'Au delà de 50m²',
+            third: 'Traitement anti-mousse / hydrofuge',
           },
           prices: {
-            first: '75€',
-            second: '85€',
-            third: '100€',
+            first: '6€/m²',
+            second: '5€/m²',
+            third: '3 à 5€/m²',
           },
         },
         {
-          name: 'Avec nettoyage extérieur',
+          name: 'Professionnel',
           subname: {
-            first: 'Citadine',
-            second: 'SUV',
-            third: 'Monospace',
+            first: 'De 20 à 50m²',
+            second: 'Au delà de 50m²',
+            third: 'Traitement anti-mousse / hydrofuge',
           },
           prices: {
-            first: '105€',
-            second: '120€',
-            third: '140€',
+            first: '7€/m²',
+            second: '6€/m²',
+            third: '4 à 6€/m²',
           },
         },
       ],
       description: [
-        'Intérieur standard avec shampoing pour sièges, tapis, moquette',
-        'Carrosserie, jantes, vitres, pneus',
+        'Nettoyage de bureaux et parties communes à la remise en état après sinistre, en passant par le débarras d’encombrants et le nettoyage de surfaces spécifiques',
+        'Prestations dédiées aux entreprises',
       ],
     },
 
     {
-      title: 'Supplément',
+      title: 'Canapés',
       iconColor: 'text-red-500',
       features: [
         {
-          name: 'Shampoing pour siège',
+          name: 'Particulier',
           subname: {
-            second: 'Tout véhicule',
+            first: '3 places',
+            second: '4 places',
+            third: '5 places et +',
           },
           prices: {
-            second: '10€',
+            first: '50€',
+            second: '60€',
+            third: '70€',
           },
         },
         {
-          name: "Poils d'animaux",
+          name: 'Professionnel',
           subname: {
-            second: 'Tout véhicule',
+            first: '3 places',
+            second: '4 places',
+            third: '5 places et +',
           },
           prices: {
-            second: '10€',
+            first: '60€',
+            second: '70€',
+            third: '80€',
           },
         },
       ],
       description: [
-        'Nettoyage et traitement spécial pour le cuir',
-        "Élimination des poils d'animaux",
+        'Nettoyage professionnel de canapés : efficacité, soin des matériaux et résultats impeccables',
+        'Prestations dédiées aux entreprises',
       ],
-    },
-  ];
-
-  const gammes = [
-    {
-      src: 'https://images.unsplash.com/photo-1639640163962-9e845bd7294a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: "Photo d'une voiture citadine",
-      caption: 'Citadine',
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1606611013016-969c19ba27bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: "Photot d'un SUV",
-      caption: 'SUV',
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1605410791216-3d9653a95667?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: "Photo d'un monospace",
-      caption: 'Monospace',
     },
   ];
 
   const exemples = [
     {
-      src: '/audiQ8.png',
-      link: 'https://www.instagram.com/p/CvNWrguoY7z/?img_index=1',
+      src: 'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: 'https://www.instagram.com/akclean_service/',
     },
     {
-      src: '/GLE34.png',
-      link: 'https://www.instagram.com/p/C3dQAjEIiFI/?img_index=1',
+      src: 'https://images.unsplash.com/photo-1600210491305-7396500b5b31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: 'https://www.instagram.com/akclean_service/',
     },
     {
-      src: '/mx5.png',
-      link: 'https://www.instagram.com/p/C5Yu7_1opuA/?img_index=1',
-    },
-    {
-      src: '/gole8s.png',
-      link: 'https://www.instagram.com/autoclean.lyon/',
-    },
-    {
-      src: '/passat.png',
-      link: 'https://www.instagram.com/p/C6MQUbVoCEi/?img_index=1',
-    },
-    {
-      src: '/x5mbw.jpg',
-      link: 'https://www.instagram.com/p/Cyv_2zoILOY/?img_index=1',
-    },
-    {
-      src: '/tiguanne.png',
-      link: 'https://www.instagram.com/p/Czg-RV-IwbO/?img_index=2',
-    },
-    {
-      src: 'tesla-model3.png',
-      link: 'https://www.instagram.com/p/CwasP7foYo2/',
-    },
-    {
-      src: '/utilitai.png',
-      link: 'https://www.instagram.com/p/C1KeaLbozWh/?img_index=1',
+      src: 'https://images.unsplash.com/photo-1618220924273-338d82d6b886?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: 'https://www.instagram.com/akclean_service/',
     },
   ];
 
@@ -170,40 +99,45 @@ const Prestation = () => {
     <>
       <header>
         <Banner
-          title="Lavage automobile"
-          subtitle="Redonnez vie à votre voiture avec notre lavage professionnel."
-          backgroundImageUrl="https://images.unsplash.com/photo-1594051673969-172a6f721d3c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          button1Label="Textile"
-          button1Link="/textile"
+          title="Mes prestations"
+          subtitle="Redonnez vie à votre appartement avec notre lavage professionnel."
+          backgroundImageUrl="https://images.unsplash.com/photo-1647381518264-97ff1835026f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          button1Label="Contactez-moi"
+          button1Link="/contact"
           button2Label="Lire plus"
         />
       </header>
 
       <main id="main" className="bg-white dark:bg-[#000302]">
+        <div className="pt-10">
+          <PlanList plans={plans} />
+        </div>
         <section className="mb-8 flex grid-cols-1 flex-col items-center justify-center gap-2 pt-10 md:grid lg:grid-cols-2">
           <div className="container mb-6 px-10 text-left md:mb-0 md:px-6 xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
-            <h2 className="text-3xl font-bold tracking-tighter text-[#101314] dark:text-white sm:text-4xl md:text-5xl">
-              Nos lavages automobiles
+            <h2 className="text-xl font-bold tracking-tighter text-[#101314] dark:text-white sm:text-2xl md:text-3xl">
+              Redonnez vie à votre intérieur avec AK CLEAN SERVICE
             </h2>
             <div className="mt-2 text-slate-800 dark:text-gray-200">
               <p>
-                Découvrez le lavage automobile supérieur avec Autoclean. Notre
-                service à domicile vous offre un véhicule impeccable sans
-                bouger. De l'extérieur étincelant au nettoyage intérieur, notre
-                équipe dévouée et équipée garantit une propreté incomparable et
-                élimine les mauvaises odeurs. Réservez maintenant pour redonner
-                à votre voiture son éclat d'origine.
+                Notre service de nettoyage d’appartement à domicile vous
+                garantit un espace impeccable sans effort. Du dépoussiérage
+                minutieux au traitement des surfaces délicates, notre équipe
+                professionnelle élimine saletés, allergènes et mauvaises odeurs
+                pour un logement sain et rafraîchi. <br></br>
+                <br /> Réservez dès maintenant et profitez d’un chez-vous aussi
+                propre que confortable.
               </p>
             </div>
           </div>
           <ComparisonSlider
-            topImage="/before_auto.jpg"
-            bottomImage="/after_auto.jpg"
+            topImage="https://images.unsplash.com/photo-1526973578717-38e3919604e8?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            bottomImage="https://images.unsplash.com/photo-1496664444929-8c75efb9546f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           />
         </section>
-        <BannerArticle images={gammes} title="Nos gammes de lavages" />
-        <PlanList plans={plans} />
-        <BannerArticle images={exemples} title="Voici quelques exemples" />
+        <BannerArticle
+          images={exemples}
+          title="Plongez dans l’univers du propre : découvrez nos lavages en action sur Instagram !"
+        />
       </main>
     </>
   );

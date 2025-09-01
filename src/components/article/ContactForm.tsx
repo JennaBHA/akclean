@@ -56,18 +56,19 @@ const ContactForm = () => {
             <div className="flex flex-col justify-between lg:py-5">
               <div>
                 <h2 className="text-3xl font-bold leading-tight text-[#101314] dark:text-white sm:text-4xl lg:text-5xl lg:leading-tight">
-                  Il est temps de laver votre voiture ?
+                  Il est temps de nettoyer vos locaux ?
                 </h2>
                 <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-[#101314] dark:text-white">
-                  Chez Autoclean, l'excellence est notre norme. Faites-nous
-                  confiance pour redonner à votre voiture son éclat d'origine,
-                  car chez Autoclean, la qualité prime toujours.
+                  Chez AK CLEAN SERVICE, l'excellence est notre norme.
+                  Faites-nous confiance pour redonner à votre appartement son
+                  éclat d'origine, car chez AK ClEAN SERVICE, la qualité prime
+                  toujours.
                 </p>
 
                 <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-[#101314] dark:text-white">
-                  Pour réserver veuillez nous contacter par téléphone (07 56 84
-                  73 46), par instagram/facebook (autoclean.lyon) ou par le
-                  formulaire de contact !
+                  Pour réserver veuillez nous contacter par téléphone (06 50 40
+                  08 96), par instagram (akclean_service) ou par le formulaire
+                  de contact !
                 </p>
 
                 <img

@@ -9,8 +9,6 @@ import Contact from './pages/Contact';
 import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite';
 import MentionLegales from './pages/MentionLegales';
 import Prestation from './pages/Prestation';
-import Vitrage from './pages/Vitrage';
-import Textile from './pages/Textile';
 
 const container = document.createElement('div');
 document.body.appendChild(container);
@@ -28,14 +26,6 @@ const router = createBrowserRouter([
       {
         path: '/prestation',
         element: <Prestation />,
-      },
-      {
-        path: '/vitrage',
-        element: <Vitrage />,
-      },
-      {
-        path: '/textile',
-        element: <Textile />,
       },
       {
         path: '/contact',

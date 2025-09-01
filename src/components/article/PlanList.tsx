@@ -119,19 +119,19 @@ const PlanList: React.FC<PlanListProps> = ({ plans }) => {
                       </p>
                     )}
                     <div className="mt-2 flex justify-around">
-                      <div>
+                      <div className="px-3">
                         <p className="text-md">{feature.subname.first}</p>
                         <p className="text-xl font-bold">
                           {feature.prices.first}
                         </p>
                       </div>
-                      <div>
+                      <div className="px-3">
                         <p className="text-md">{feature.subname.second}</p>
                         <p className="text-xl font-bold">
                           {feature.prices.second}
                         </p>
                       </div>
-                      <div>
+                      <div className="px-3">
                         <p className="text-md">{feature.subname.third}</p>
                         <p className="text-xl font-bold">
                           {feature.prices.third}
