@@ -61,7 +61,7 @@ const ContactForm = () => {
                 <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-[#101314] dark:text-white">
                   Chez AK CLEAN SERVICE, l'excellence est notre norme.
                   Faites-nous confiance pour redonner à votre appartement son
-                  éclat d'origine, car chez AK ClEAN SERVICE, la qualité prime
+                  éclat d'origine, car chez AK CLEAN SERVICE, la qualité prime
                   toujours.
                 </p>
 
