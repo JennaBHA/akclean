@@ -7,7 +7,7 @@ const Prestation = () => {
   const plans = [
     {
       title: 'Nettoyage',
-      iconColor: 'text-yellow-500',
+      iconColor: 'text-green-500',
       features: [
         {
           name: 'Particulier',
@@ -22,6 +22,16 @@ const Prestation = () => {
             third: '3 à 5€/m²',
           },
         },
+      ],
+      description: [
+        'Nettoyage de bureaux et parties communes à la remise en état après sinistre, en passant par le débarras d’encombrants et le nettoyage de surfaces spécifiques',
+      ],
+    },
+
+    {
+      title: 'Nettoyage médicale',
+      iconColor: 'text-yellow-500',
+      features: [
         {
           name: 'Professionnel',
           subname: {
@@ -37,8 +47,7 @@ const Prestation = () => {
         },
       ],
       description: [
-        'Nettoyage de bureaux et parties communes à la remise en état après sinistre, en passant par le débarras d’encombrants et le nettoyage de surfaces spécifiques',
-        'Prestations dédiées aux entreprises',
+        'Du nettoyage quotidien des cabinets médicaux et paramédicaux à la désinfection renforcée des laboratoires, en passant par l’entretien des espaces communs et la remise en état après sinistre.',
       ],
     },
 
@@ -82,15 +91,15 @@ const Prestation = () => {
 
   const exemples = [
     {
-      src: 'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: '/post1.jpeg',
       link: 'https://www.instagram.com/akclean_service/',
     },
     {
-      src: 'https://images.unsplash.com/photo-1600210491305-7396500b5b31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: '/post2.jpeg',
       link: 'https://www.instagram.com/akclean_service/',
     },
     {
-      src: 'https://images.unsplash.com/photo-1618220924273-338d82d6b886?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: '/post3.png',
       link: 'https://www.instagram.com/akclean_service/',
     },
   ];
@@ -102,8 +111,8 @@ const Prestation = () => {
           title="Mes prestations"
           subtitle="Redonnez vie à votre appartement avec notre lavage professionnel."
           backgroundImageUrl="https://images.unsplash.com/photo-1647381518264-97ff1835026f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          button1Label="Contactez-moi"
-          button1Link="/contact"
+          button1Label="Nettoyage médicale"
+          button1Link="/medics"
           button2Label="Lire plus"
         />
       </header>
@@ -129,10 +138,7 @@ const Prestation = () => {
               </p>
             </div>
           </div>
-          <ComparisonSlider
-            topImage="https://images.unsplash.com/photo-1526973578717-38e3919604e8?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            bottomImage="https://images.unsplash.com/photo-1496664444929-8c75efb9546f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          />
+          <ComparisonSlider topImage="/before1.png" bottomImage="/after1.png" />
         </section>
         <BannerArticle
           images={exemples}

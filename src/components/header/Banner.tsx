@@ -37,9 +37,9 @@ const Banner: React.FC<BannerProps> = ({
         />
       </div>
 
-      <div className="absolute inset-0 hidden bg-gradient-to-r from-black to-transparent md:block"></div>
+      {/* <div className="absolute inset-0 hidden bg-gradient-to-r from-black to-transparent md:block"></div> */}
 
-      <div className="absolute inset-0 block bg-black/60 md:hidden"></div>
+      <div className="absolute inset-0 block bg-black/70 md:bg-black/75"></div>
 
       <div className="container relative mx-auto text-center">
         <h1 className="mb-4 max-w-sm text-5xl font-extrabold md:max-w-full">

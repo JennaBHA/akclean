@@ -8,9 +8,11 @@ import 'swiper/css/navigation';
 import '../../style.css';
 
 const slideImages = [
-  'https://images.unsplash.com/photo-1653820453399-c0277eae725f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/45/QDSMoAMTYaZoXpcwBjsL__DSC0104-1.jpg?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  '/car_1.png',
+  '/car_2.png',
+  '/car_3.jpg',
+  '/canap_1.png',
+  '/canap_2.jpg',
 ];
 
 const Carousel = () => {

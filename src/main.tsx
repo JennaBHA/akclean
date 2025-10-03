@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite';
 import MentionLegales from './pages/MentionLegales';
 import Prestation from './pages/Prestation';
+import Medics from './pages/Medics';
 
 const container = document.createElement('div');
 document.body.appendChild(container);
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: '/prestation',
         element: <Prestation />,
+      },
+      {
+        path: '/medics',
+        element: <Medics />,
       },
       {
         path: '/contact',
