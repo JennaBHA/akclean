@@ -12,9 +12,12 @@ const MentionLegales = () => {
         <section className="mt-6">
           <h2 className="text-xl font-bold">Responsable du Site Web</h2>
           <p>AK CLEAN SERVICE</p>
-          <p>Numéro Siret : ?</p>
+          <p>Numéro Siret : 89804465600020</p>
           <p>Responsable éditorial : Rhayane ES SALIH BENACER</p>
-          <p>Adresse de l'entreprise : ?, ? , France</p>
+          <p>
+            Adresse de l'entreprise : 43 chemin de la Citadelle 69230 Saint
+            Genis Laval France
+          </p>
           <p>Téléphone : 06 50 40 08 96</p>
           <p>E-mail : akcleanservice69@gmail.com</p>
         </section>
