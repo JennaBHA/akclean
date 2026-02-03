@@ -51,7 +51,3 @@ Le site permet de présenter ces services de manière claire et professionnelle.
 ## 🌐 Lien du site
 
 https://ak-clean-service.vercel.app
-*
-
-```md
-![Aperçu du site](./screenshots/home.png)
